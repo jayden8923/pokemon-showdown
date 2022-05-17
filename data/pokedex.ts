@@ -1,4 +1,25 @@
 export const Pokedex: {[speciesid: string]: SpeciesData} = {
+	
+
+		num: 1000,
+
+		name: "Sirfetch'd Fire Rider",
+
+		types: ["Fighting", "Fire"],
+
+		genderRatio: {M: 0.875, F: 0.125},
+
+		baseStats: {hp: 65, atk: 135, def: 95, spa: 80, spd: 82, spe: 105},
+
+		abilities: {0: "As One (Flash Fire + Scrappy)"},
+
+		heightm: 2.5,
+
+		weightkg: 212.0,
+
+		color: "Red",
+
+		eggGroups: ["Flying", "Field"],
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",

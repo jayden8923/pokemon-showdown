@@ -1,6 +1,6 @@
 export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	
-sirfetchdfire
+sirfetchdfire: {
 		num: 1000,
 
 		name: "Sirfetch\u2019d Fire Rider",
@@ -20,6 +20,7 @@ sirfetchdfire
 		color: "Red",
 
 		eggGroups: ["Flying", "Field"],
+}
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",

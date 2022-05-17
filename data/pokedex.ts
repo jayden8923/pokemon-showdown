@@ -1,9 +1,9 @@
 export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	
-
+sirfetchdfire
 		num: 1000,
 
-		name: "Sirfetch'd Fire Rider",
+		name: "Sirfetch\u2019d Fire Rider",
 
 		types: ["Fighting", "Fire"],
 

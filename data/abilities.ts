@@ -39,6 +39,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0.1,
 		num: 0,
 	},
+asoneflashfirescrappy: {
+onPreStart(pokemon) {
+
+			this.add('-ability', pokemon, 'Flash Fire');
+	this.add('-ability', pokemon, 'Scrappy');
+		},
+name: "As One (Flash Fire + Scrappy)",
+rating: 4,
+num: 2000,
+isPermanent: true
+},
 	adaptability: {
 		onModifyMove(move) {
 			move.stab = 2;

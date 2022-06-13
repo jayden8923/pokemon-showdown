@@ -4844,6 +4844,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fire",
 		contestType: "Cool",
 	},
+	firelance: {
+		num: 10000,
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		name: "Fire Lance",
+		pp: 16,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, defrost: 1},
+		secondaries: [
+			{
+				chance: 50,
+				status: 'brn',
+			}
+		],
+		target: "normal",
+		type: "Fire",
+		contestType: "Cool"
+	},
 	firelash: {
 		num: 680,
 		accuracy: 100,

@@ -167,6 +167,10 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits.",
 		},
 	},
+	firelance: {
+		name: "Fire Lance",
+		shortDesc: "Has a 50% chance to burn.",
+	},
 	aromatherapy: {
 		name: "Aromatherapy",
 		desc: "Every Pokemon in the user's party is cured of its non-volatile status condition. Active Pokemon with the Sap Sipper Ability are not cured, unless they are the user.",

@@ -3,6 +3,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "No Ability",
 		shortDesc: "Does nothing.",
 	},
+	asoneflashfirescrappy: {
+		name: "As One (Flash Fire + Scrappy}",
+		shortDesc: "The combination of Flash Fire and Scrappy.",
+	},
 	adaptability: {
 		name: "Adaptability",
 		desc: "This Pokemon's moves that match one of its types have a same-type attack bonus (STAB) of 2 instead of 1.5.",

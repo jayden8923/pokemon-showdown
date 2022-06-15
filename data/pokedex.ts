@@ -20,7 +20,7 @@ sirfetchdfire: {
 		color: "Red",
 
 		eggGroups: ["Flying", "Field"],
-}
+}.
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",

@@ -126,7 +126,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			wildcharge: ["8M", "7M", "6M", "5M"],
 			willowisp: ["8M", "8V", "7M", "6M", "5M", "4M"],
 		},
-	};
+	},
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
